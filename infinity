@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ping -c1 -W1 -q gauntlet > /dev/null && echo 'Gauntlet is up' || echo 'Gauntlet is down'
+ping -c1 -W1 -q soul > /dev/null && echo 'Soul is up' || echo 'Soul is down'
+ping -c1 -W1 -q space > /dev/null && echo 'Space is up' || echo 'Space is down'
+ping -c1 -W1 -q time > /dev/null && echo 'Time is up' || echo 'Time is down'
