@@ -1,3 +1,3 @@
-install:	infinity
-	chmod u+x infinity
+install:	server_status
+	chmod u+x server_status
 
